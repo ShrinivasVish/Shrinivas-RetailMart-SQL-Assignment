@@ -25,6 +25,7 @@ The following table schema outlines the core entities involved in RetailMart’s
 - **tbl_order_items**: Contains records of individual items within each order, linking to both products and orders.
 - **tbl_products**: Lists all products available for sale, along with their pricing and availability.
 - **tbl_campaigns**: Details various marketing campaigns, including campaign names, budgets, and active dates.
+- **tbl_inventory**: Lists the product_ids and their respective stick_quantities.
 
 Each table is interlinked, allowing for comprehensive data analysis that reflects customer interactions, sales performance, and inventory status.
 
