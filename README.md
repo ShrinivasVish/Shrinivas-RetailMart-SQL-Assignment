@@ -25,6 +25,7 @@ The following table schema outlines the core entities involved in RetailMart’s
 - **tbl_order_items**: Contains records of individual items within each order, linking to both products and orders.
 - **tbl_products**: Lists all products available for sale, along with their pricing and availability.
 - **tbl_campaigns**: Details various marketing campaigns, including campaign names, budgets, and active dates.
+- **tbl_inventory**: Lists the product_ids and their respective stick_quantities.
 
 Each table is interlinked, allowing for comprehensive data analysis that reflects customer interactions, sales performance, and inventory status.
 
@@ -47,7 +48,7 @@ By leveraging these queries, we aimed to provide RetailMart with a clearer pictu
 
 The SQL Queries have been organized into the follwoing project structure:
 
-<img title="Tables and Relationships" width="360" alt="Alt text" src="./Diagrams/Directory-Structure.png">
+<img title="Tables and Relationships" width="300" alt="Alt text" src="./Diagrams/Directory-Structure.png">
 
 ## Outcomes
 
@@ -59,5 +60,3 @@ The outcomes of the SQL querying assignment can be summarized as follows:
 - **Data-Driven Strategies**: The ability to extract and analyze data fosters a culture of data-driven decision-making within RetailMart, paving the way for ongoing improvements in operations.
 
 This assignment emphasizes the importance of mastering SQL querying techniques as a foundational skill for data analysis, ultimately equipping RetailMart with the tools necessary to navigate the competitive retail landscape effectively.
-
----
